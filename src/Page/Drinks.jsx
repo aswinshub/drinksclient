@@ -10,7 +10,7 @@ const Drinks = () => {
   useEffect(() => {
     const fetchDrinks = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/drinks");
+        const response = await axios.get("https://drinkserver.onrender.com/drinks");
         setDrinks(response.data);
       } catch (err) {
         setError(err.message);
@@ -27,7 +27,7 @@ const Drinks = () => {
       <Navbar /> 
       <div
         className="w-full h-[311px] bg-cover bg-center"
-        style={{ backgroundImage: 'url("/src/assets/banner.png")' }}
+        style={{ backgroundImage: 'url("https://res.cloudinary.com/df3ffobko/image/upload/v1727422725/ekgvbboxofucykkrpfvi.png")' }}
       >
         <div className="text-white p-4 text-center">
           <h1
@@ -46,7 +46,7 @@ const Drinks = () => {
 
       <div
         className="w-full h-[79px] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: 'url("/src/assets/fdb.png")' }}
+        style={{ backgroundImage: 'url("https://res.cloudinary.com/df3ffobko/image/upload/v1727422725/wrmp5o8wtoqhhmoyfho1.png")' }}
       >
         <div className="flex space-x-4">
           <button className="bg-black hover:bg-blue-500 text-white font-semibold py-3 px-4 border border-blue-500 hover:border-transparent">
@@ -63,15 +63,15 @@ const Drinks = () => {
 
       <div
         className="relative w-full bg-cover bg-center flex justify-center items-center"
-        style={{ backgroundImage: 'url("/src/assets/body.png")' }}
+        style={{ backgroundImage: 'url("https://res.cloudinary.com/df3ffobko/image/upload/v1727422726/i5heztpvh88erjnsurla.png")' }}
       >
         <img
-          src="src/assets/frame.png"
+          src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422725/z5ta4hreqqv7vj72rqga.png"
           alt="drink"
           className="absolute top-[-30] left-[-1px] "
         />
         <img
-          src="src/assets/frame2.png"
+          src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422726/m0wmmj4upekmwv3ycfs7.png"
           alt="drink"
           className="absolute top-[-30] right-[-1px]  "
         />
@@ -79,14 +79,14 @@ const Drinks = () => {
         <div className="flex flex-col items-center mt-20 space-y-20">
           <div className="relative w-full max-w-[1140px] bg-transparent border border-white p-5">
             <img
-              src="src/assets/drink.png"
+              src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422725/qxof65pj7gl2jaq29xqm.png"
               alt="drink"
               className="absolute top-[50px] left-[30px] size-20 sm:top-[-100px] sm:size-44 sm:left-[-100px]  "
             />
 
 
 <img
-              src="src/assets/cocktail.png"
+              src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422725/hehiufidy0fgyznx09pj.png"
               alt="drink"
               className="absolute top-[50px] right-[30px] size-20 sm:top-[-100px] sm:size-44 sm:right-[-100px] "
             />
@@ -121,7 +121,7 @@ const Drinks = () => {
          
 
 <img
-              src="src/assets/lime.png"
+              src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422725/mcqrgxchqbstdepvcrqv.png"
               alt="drink"
               className="absolute top-[20px] left-[30px] size-20 sm:top-[-150px] sm:size-60 sm:left-[-80px]  "
             />
@@ -129,7 +129,7 @@ const Drinks = () => {
 
 
 <img
-              src="src/assets/lime 2.png"
+              src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422724/uoxnx6ftvwjdrnacpbls.png"
               alt="drink"
               className="absolute top-[20px] right-[30px] size-20 sm:top-[350px] sm:size-60 sm:right-[-100px] "
             />
@@ -162,7 +162,7 @@ const Drinks = () => {
           <div className="w-full max-w-[1140px] bg-transparent border border-white p-5">
   <div className="flex flex-col items-center">
     <img
-      src="src/assets/hookah.png"
+      src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422726/fm8bkzp3iphtooeis16j.png"
       alt="Hookah Logo"
       className="h-[100px] w-[100px]"
     />
@@ -237,7 +237,7 @@ const Drinks = () => {
 
               <div className="flex items-center justify-center space-x-2">
                 <img
-                  src="src/assets/phone.png"
+                  src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422726/uueou1x8hixop17lfbsx.png"
                   alt="Phone Logo"
                   className="h-[20px] w-[20px]"
                 />
@@ -248,7 +248,7 @@ const Drinks = () => {
 
               <div className="flex items-center justify-center space-x-2 mt-2">
                 <img
-                  src="src/assets/mail.png"
+                  src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422726/rkwhyx5gqqub9uxoppem.png"
                   alt="Mail Logo"
                   className="h-[20px] w-[20px]"
                 />
@@ -262,7 +262,7 @@ const Drinks = () => {
 
             <div className="relative w-full h-[134px] border rounded-md border-gray-50">
               <img
-                src="src/assets/logo.png"
+                src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422726/dkcs7cm0mzj2ocgby35k.png"
                 alt="Logo"
                 className="absolute top-[-20px] left-1/2 transform -translate-x-1/2 h-[40px] w-[40px]"
               />
@@ -282,17 +282,17 @@ const Drinks = () => {
                 </div>
 
                 <div className="flex justify-center space-x-2 w-full">
-                  <img src="src/assets/fb.png" className="h-[15px] w-[15px]" />
+                  <img src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422724/mn8h4eh8etwncjexvwc8.png" className="h-[15px] w-[15px]" />
                   <img
-                    src="src/assets/twitter.png"
+                    src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422726/mr68teiv8uewc08gla6g.png"
                     className="h-[15px] w-[15px]"
                   />
                   <img
-                    src="src/assets/youtube.png"
+                    src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422727/g73oq2rvpsckzm5jnxnw.png"
                     className="h-[15px] w-[15px]"
                   />
                   <img
-                    src="src/assets/insta.png"
+                    src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422726/fh7xbnmiyyyrwvtbnx6b.png"
                     className="h-[15px] w-[15px]"
                   />
                 </div>
@@ -306,7 +306,7 @@ const Drinks = () => {
 
                 <div className="flex items-center justify-center space-x-2 space-y-3">
                   <img
-                    src="src/assets/location.png"
+                    src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422726/xjldrjvelpejcbbasfnt.png"
                     alt="Location Logo"
                     className="h-[20px] w-[20px]"
                   />

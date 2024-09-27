@@ -10,7 +10,7 @@ const Navbar = () => {
           <div className=" relative container mx-auto flex justify-between  items-end h-full">
             <div className="flex absolute top-[68px] left-[45%] sm:left-[100px]   h-[60px] w-[200px] gap-3">
               <img
-                src="src/assets/logo.png"
+                src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422726/dkcs7cm0mzj2ocgby35k.png"
                 alt="drink"
                 className="object-cover h-[60px] w-[60px] "
               />
