@@ -81,14 +81,14 @@ const Drinks = () => {
             <img
               src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422725/qxof65pj7gl2jaq29xqm.png"
               alt="drink"
-              className="absolute top-[50px] left-[30px] size-20 sm:top-[-100px] sm:size-44 sm:left-[-100px]  "
+              className="absolute top-[50px] left-[30px] size-20 sm:top-[-100px] sm:size-44 sm:left-[-50px]  "
             />
 
 
 <img
               src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422725/hehiufidy0fgyznx09pj.png"
               alt="drink"
-              className="absolute top-[50px] right-[30px] size-20 sm:top-[-100px] sm:size-44 sm:right-[-100px] "
+              className="absolute top-[50px] right-[30px] size-20 sm:top-[-100px] sm:size-44 sm:right-[-30px] "
             />
 
 
@@ -131,7 +131,7 @@ const Drinks = () => {
 <img
               src="https://res.cloudinary.com/df3ffobko/image/upload/v1727422724/uoxnx6ftvwjdrnacpbls.png"
               alt="drink"
-              className="absolute top-[20px] right-[30px] size-20 sm:top-[350px] sm:size-60 sm:right-[-100px] "
+              className="absolute top-[20px] right-[30px] size-20 sm:top-[300px] sm:size-60 sm:right-[-1px] "
             />
 
             <h1
